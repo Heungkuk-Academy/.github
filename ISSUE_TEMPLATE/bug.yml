@@ -1,0 +1,29 @@
+name: "🐛 Bug"
+description: "버그 리포트"
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: 📄 증상
+      description: 무엇이 어떻게 잘못되었는지 작성해 주세요.
+      placeholder: 기대한 동작과 실제 동작을 함께 적어주세요!
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🔁 재현 방법
+      description: 순서대로 작성해 주세요.
+      placeholder: |
+        1.
+        2.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🖥️ 환경 / 로그
+      description: 발생 환경과 관련 로그를 작성해 주세요. 민감한 정보는 가린 뒤 첨부해 주세요.
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 스크린샷 등 참고 자료가 있다면 작성해 주세요.
