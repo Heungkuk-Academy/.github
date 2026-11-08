@@ -5,12 +5,7 @@
 
 ## 레포지토리 구조
 
-```
-브라우저 ─▶ academy-frontend ─▶ academy-backend ─▶ MySQL
- (Next.js)      (웹 화면)         (Spring Boot API)
-                      ▲
-                academy-infra (배포 설정: Docker Compose · nginx · 로그 수집)
-```
+
 
 | 레포 | 설명 | 기술 | 공개 |
 |---|---|---|---|
