@@ -12,7 +12,7 @@
 | [academy-backend](https://github.com/Heungkuk-Academy/academy-backend) | API 서버. 예약·계정·설문·엑셀 문서 생성 | Spring Boot, Java 21, JPA | 공개 |
 | [academy-frontend](https://github.com/Heungkuk-Academy/academy-frontend) | 웹 프론트엔드 | Next.js, TypeScript | 공개 |
 | academy-infra | 배포 설정과 운영 문서 (compose, nginx, 로그 수집) | Docker Compose, nginx, Loki | 비공개 |
-| academy-docs | 기획·API·ERD 등 프로젝트 문서 | Markdown | 비공개 |
+| [academy-docs](https://github.com/Heungkuk-Academy/academy-docs) | 기획·API·ERD 등 프로젝트 문서 | Markdown | 공개 |
 
 ## 작업 규칙
 
